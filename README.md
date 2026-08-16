@@ -80,6 +80,8 @@ The project relies on a straightforward dataset consisting of labelled audio fil
 The Department of Conservation (DOC) Tear 1 New Zealand Wildlife Short Sound Crops was used as the primary data source for this project, acquired form Kaggle. Tear 1: Broad scale monitoring for national context is a sampling programme, which started in late 2011, it involves the regular assessment of a selection of native species and pests at location 8 km apart and spaced evenly across the landscape. 
 The dataset contained 290,000 short audio clips from three different sources. Only one source was used in this project (DOC_001_Tier1). The Tier 1 dataset consisted of 123,086 audio clips from 103 different bird species. Supporting data included a 001_metadat.csv file with filename and primary label. Another csv file, bird_naming_map.csv consisted of primary label, common name and scientific name.
  
+ <img width="550" height="345" alt="image" src="https://github.com/user-attachments/assets/03ce525b-01df-4309-9726-13bd30b7e7de" />
+
 **Initial Dataset:**
 •	Total Audio Files: 123,086
 •	Total Species: 103 unique species
@@ -91,10 +93,10 @@ The dataset contained 290,000 short audio clips from three different sources. On
 •	Clips per Species: Varies from 4,373 to 15,000
 To balance the dataset, morepo2 (Morepork) bird was down sampled from 30,000+ sample clips to 15,000 random clips.
 **Data Split:**
-Split	Percentage	Clip Count
-Training	80%	62,443
-Validation	10%	7,805
-Test	10%	7,806
+| Split | Percentage | Clip Count |
+| Training | 80% | 62,443 |
+| Validation | 10% | 7,805 |
+| Test | 10% | 7,806 |
 
 **Metadata File: 001_metadata.csv:**
 Column	Description	Example
