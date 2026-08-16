@@ -94,6 +94,7 @@ The dataset contained 290,000 short audio clips from three different sources. On
 To balance the dataset, morepo2 (Morepork) bird was down sampled from 30,000+ sample clips to 15,000 random clips.
 **Data Split:**
 | Split | Percentage | Clip Count |
+| :--- | :---: | :---: |
 | Training | 80% | 62,443 |
 | Validation | 10% | 7,805 |
 | Test | 10% | 7,806 |
